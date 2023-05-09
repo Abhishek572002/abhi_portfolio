@@ -2,11 +2,10 @@ import React, { useState } from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
-import Bar from "@iconscout/react-unicons/icons/uil-bars";
-import Minus from "@iconscout/react-unicons/icons/uil-minus";
+
 
 const Navbar = () => {
-  const [isMobile, setIsMobile] = useState(false);
+ 
 
   return (
     <div className="n-wrapper" id="Navbar">
